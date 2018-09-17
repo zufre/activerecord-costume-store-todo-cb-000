@@ -11,5 +11,6 @@ class CreateHountedHouses
       t.datetime :opening_time
       t.datetime :closing_time
       t.text :long_description
+    end
   end
 end
