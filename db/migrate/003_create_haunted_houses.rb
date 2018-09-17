@@ -1,8 +1,8 @@
 # Create your haunted_houses migration here
 
-class CreateHountedHouses
+class CreateHauntedHouses
   def changes
-    create_table :hounted_houses do |t|
+    create_table :haunted_houses do |t|
       t.string :name
       t.string :location
       t.string :theme
